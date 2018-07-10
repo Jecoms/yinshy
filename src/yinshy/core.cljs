@@ -4,12 +4,6 @@
             [yinshy.components.body :refer [body]]
             [yinshy.components.footer :refer [footer]]))
 
-
-
-
-
-
-
 (defn app
   []
   [:div.container
