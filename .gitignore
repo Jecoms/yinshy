@@ -1,39 +1,8 @@
-# See https://help.github.com/ignore-files/ for more about ignoring files.
-
-# dependencies
 /node_modules
-
-# testing
-/coverage
-
-# production
-/build
-
-src/cljs/
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# extra boilerplate for compiled output and potential tooling
-pom.xml
-pom.xml.asc
-*.jar
-*.class
-/lib/
-/classes/
-/target/
-/checkouts/
-.lein-deps-sum
-.lein-repl-history
-.lein-plugins/
-.lein-failures
+/target
+/public/js
+.shadow-cljs
 .nrepl-port
-.cpcache/
+yarn.lock
+package-lock.json
+.DS_Store
