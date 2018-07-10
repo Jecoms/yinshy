@@ -1,9 +1,21 @@
 (ns yinshy.core
-  (:require [reagent.core :as r]))
+  (:require [reagent.core :as r]
+            [yinshy.components.header :refer [header]]
+            [yinshy.components.body :refer [body]]
+            [yinshy.components.footer :refer [footer]]))
+
+
+
+
+
+
 
 (defn app
   []
-  [:div.container])
+  [:div.container
+   [header]
+   [body]
+   [footer]])
 
 (defn ^:export main
   []
