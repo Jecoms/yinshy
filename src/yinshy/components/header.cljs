@@ -2,4 +2,4 @@
 
 (defn header
   []
-  [:header "jesse"])
+  [:header [:div [:p "players"]]])
