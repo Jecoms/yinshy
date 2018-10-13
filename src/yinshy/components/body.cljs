@@ -2,4 +2,4 @@
 
 (defn body
   []
-  [:body "colin"])
+  [:body [:div [:p "score grid"]]])
